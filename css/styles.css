@@ -10,16 +10,17 @@ body {
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    
+    
 }
 
 .contenedor {
-    width: 65%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 2px 5px 10px rgb(44, 41, 41);
+    margin: 35px;
 }
 
 @media only screen and (max-width: 600px) {

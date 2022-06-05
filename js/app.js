@@ -124,9 +124,6 @@ function enviarEmail(e) {
     }, 3000);
 };
 
-function validarEmail(campo) {
-    
-}
 
 
 
