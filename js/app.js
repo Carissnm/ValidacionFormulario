@@ -33,6 +33,12 @@ function iniciarApp() {
 
 function borrarFormulario() {
     formulario.reset();
+
+    const error = document.querySelector('p.error');
+            if(error) {
+                error.remove();
+            }
+            
     iniciarApp();
     email.classList.remove('borde-rojo', 'borde-verde');
     asunto.classList.remove('borde-rojo', 'borde-verde');
